@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@400;700&family=Manjari:wght@100;400;700&display=swap');
+
+body{
+    font-family: manjari;
+    margin: 0;
+}
+
+header{
+    position: fixed;
+    top: 0;   /* fixa no rodapé */
+    left: 0;
+    right: 0;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: white;
+}
+header div{
+    display: flex;
+}
+.titulo{
+    margin: 0;
+    color: #002FA7;
+    font-size: 30px;
+    font-family: kodchasan;
+}
+.titulo span{
+    font-weight: bold;
+    color: #D76B00;
+}
+
+.notificacoes svg, .carrinho svg{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+hr{
+    border: none;
+    height: 2px;
+    background-color: #D76B00;
+    margin: 0px;
+}
+
+main{
+    margin: 30px 0px 30px 30px;
+}
+
+h1{
+    font-family: kodchasan;
+}
+
+h2{
+    font-weight: normal;
+}
+
+.sessao-slide{
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.sessao-slide .card{
+    background-color: #f4f4f4;
+    border-radius: 30px;
+    padding: 15px;
+    width: 180px;
+    box-shadow: 0px 4px 4px 0px rgb(0, 0, 0, 0.25);
+    margin-right: 20px;
+}
+
+.foto-prod{
+    width: 180px;
+    height: 180px;
+    background-color: aqua;
+    border-radius: 15px;
+}
+
+.produtos-slide p{
+    margin: 10px 0px;
+}
+
+.nome-prod{
+    font-size: 20px;
+}
+.preco{
+    font-size: 23px;
+}
+.preco span{
+    font-size: 15px;
+    color: #7c7c7c;
+    text-decoration: line-through;
+}
+
+.mercado{
+    margin-right: 20px;
+}
+.mercado p{
+    font-size: 20px;
+    margin: 10px 0px 5px 0px;
+}
+.mercado div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foto-perfil{
+    width: 125px;
+    height: 125px;
+    background-color: #D76B00;
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px 0px rgb(0, 0, 0, 0.25);
+}
+.verificado{
+    width: 20px;
+    height: 20px;
+}
+
+.ajuste-cima{
+    height: 70px;
+}
+.ajuste-baixo{
+    height: 80px;
+}
+
+.mais-pedidos{
+    padding-bottom: 30px;
+}
+
+.mais-pedidos .card{
+    background-color: #f4f4f4;
+    border-radius: 30px;
+    padding: 15px;
+    width: calc(100% - 60px);
+    box-shadow: 0px 4px 4px 0px rgb(0, 0, 0, 0.25);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.mais-pedidos .foto-prod{
+    width: 147px;
+    height: 147px;
+    background-color: aqua;
+    border-radius: 15px;
+    margin-right: 15px;
+}
+
+.produtos-slide p{
+    margin: 10px 0px;
+}
+
+.nome-prod{
+    font-size: 20px;
+}
+.preco{
+    font-size: 23px;
+}
+.preco span{
+    font-size: 15px;
+    color: #7c7c7c;
+    text-decoration: line-through;
+}
+
+
+nav {
+    position: fixed;
+    bottom: 0;   /* fixa no rodapé */
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #F4F4F4;
+    padding: 10px 0;
+    border-radius: 15px 15px 0 0;
+    box-shadow: 0 -4px 4px rgba(0,0,0,0.25);
+}
+
+nav div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+    color: #585858;
+}
+
+nav div svg {
+    width: 35px;
+    height: 35px;
+}
+
+    /* Ícone ativo */
+nav div.active {
+    background: #0039a6; /* azul */
+    color: #fff;
+}
