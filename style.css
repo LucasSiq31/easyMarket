@@ -143,6 +143,12 @@ h2{
     display: flex;
 }
 
+.mais-pedidos .card div{
+    display: flex;
+        flex-direction: column;
+    justify-content: space-between;
+}
+
 .mais-pedidos .foto-prod{
     width: 147px;
     height: 147px;
@@ -151,8 +157,8 @@ h2{
     margin-right: 15px;
 }
 
-.produtos-slide p{
-    margin: 10px 0px;
+.mais-pedidos p{
+    margin: 0px;
 }
 
 .nome-prod{
@@ -160,11 +166,6 @@ h2{
 }
 .preco{
     font-size: 23px;
-}
-.preco span{
-    font-size: 15px;
-    color: #7c7c7c;
-    text-decoration: line-through;
 }
 
 
@@ -203,5 +204,4 @@ nav div svg {
 nav div.active {
     background: #0039a6; /* azul */
     color: #fff;
-
 }
